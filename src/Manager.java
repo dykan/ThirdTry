@@ -17,8 +17,7 @@ public class Manager {
 		if (normalActivity)
 			normalAct.add(x);
 		else {
-			if (normalAct.contains(x))
-				normalAct.remove(x);
+			normalAct.remove(x);
 			reaction.add(x);
 		}
 	}
