@@ -11,6 +11,7 @@ public class Cell {
 	}
 
 	public void run() {
+		// TODO: this doesnt work
 		System.out.println("d- " + "run() ");
 		if (contacts.getRandom().hi(this)) {
 			strength++;
